@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IndoorNavigation</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZGF4ZHVlIiwiYSI6ImNrOXNpcGl5dzE0Y2MzZnJ0OTMwaWtqdWUifQ.qtkXfj6ei8iYdND1zghqbg</string>
+    <string name="UserHomeActivity">UserHomeActivity</string>
+    <string name="WorkPlanActivity">WorkPlanActivity</string>
+    <string name="MapActivity">MapActivity</string>
+    <string name="worker">Сотрудник</string>
+    <string name="workerNameDefault">Имя, фамилия работника</string>
+    <string name="workerStatusDefault">Должность работника</string>
+    <string name="nameOfTaskDefault">Контрольная точка №</string>
+    <string name="taskDescriptionDefault">Описание задачи</string>
+    <string name="taskLocationDefault">Местонахождение задачи</string>
+    <string name="passwordForm">Пароль</string>
+    <string name="loginForm">Табельный номер</string>
+    <string name="loginTxt">Войти в систему</string>
+    <string name="logOut">Выйти</string>
+    <string name="markerText">Помещение</string>
+    <string name="mainMenu">Меню</string>
+    <string name="toTasks">К задачам</string>
+    <string name="task">Задача</string>
+    <string name="taskCompleted">Выполнено</string>
+    <string name="badServerConnection">Проблемы в соединении с сервером</string>
+    <string name="emptyField">Поля табельный номер/пароль не должны быть пустыми</string>
+    <string name="wrongCredentials">Проверьте правильность ввода полей табельный номер/пароль</string>
+    <string name="splashScreenTitle">Система мониторинга сотрудников</string>
+    <string name="closeWorkshift">Закрыть смену</string>
+</resources>

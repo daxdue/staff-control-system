@@ -1,0 +1,110 @@
+<div class="col-xs-12">
+  <div class="box-content card">
+    <h4 class="box-title"><i class="fa fa-user ico"></i>Добавить задачу</h4>
+
+    <div class="card-content">
+
+      <form action="/api/v1/add/new_task" enctype="application/json" method="POST" name="myForm" >
+
+        <div class="form-group">
+          <label for="inp-type-1" class="col-sm-3 control-label">Наименование задачи</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="name" name="taskName" placeholder="Введите название задачи">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inp-type-1" class="col-sm-3 control-label">Описание задачи</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="description" name="taskDescription" placeholder="Введите описание задачи">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="location" class="col-sm-3 control-label">Местоположение</label>
+          <div class="col-sm-5">
+						<select class="form-control" name="taskLocation">
+							<option value="">Выберите точку приема</option>
+							<option value="sklad1">Склад 1</option>
+							<option value="sklad2">Склад 2</option>
+							<option value="sklad3">Склад 3</option>
+						</select>
+          </div>
+				</div>
+
+
+
+        <div class="card-content">
+					<div class="row">
+						<input type="submit" class="btn btn-primary waves-effect waves-light" value="Создать">
+					</div>
+    		</div>
+
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+<p><label for="taskRoom">Номер помещения: </label>
+<input type="text" name="taskRoom" id="room"></p>
+
+<p><label for="tabelId">Табельный номер исполнителя:</label>
+<input type="text" name="tabelId" id="tid"></p>
+
+<p><label for="taskPriority">Приоритет:</label>
+<input type="text" name="taskPriority" id="priority"></p>
+
+
+
+
+
+<form class="form-horizontal" action="add_item.php">
+                <div class="form-group">
+                  <label for="inp-type-1" class="col-sm-3 control-label">Наименование</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inp-type-1" name="name" placeholder="Введите наименование груза">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inp-type-1" class="col-sm-3 control-label">UID</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inp-type-1" name="uid" placeholder="Введите UID метки">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inp-type-1" class="col-sm-3 control-label">Пункт приема</label>
+                  <div class="col-sm-9">
+                    <select class="form-control" name="inputStorage">
+                      <option value="">Выберите точку приема</option>
+                      <option value="sklad1">Склад 1</option>
+                      <option value="sklad2">Склад 2</option>
+                      <option value="sklad3">Склад 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inp-type-1" class="col-sm-3 control-label">Пункт назначения</label>
+                  <div class="col-sm-9">
+                    <select class="form-control" name="outputStorage">
+                      <option value="">Выберите точку назначения</option>
+                      <option value="sklad1">Склад 1</option>
+                      <option value="sklad2">Склад 2</option>
+                      <option value="sklad3">Склад 3</option>
+                    </select>
+                  </div>
+                </div>
+
+
+                <div class="card-content">
+                  <div class="row">
+                    <input type="submit" class="btn btn-primary waves-effect waves-light" value="Создать">
+                  </div>
+                </div>
+
+
+</form>

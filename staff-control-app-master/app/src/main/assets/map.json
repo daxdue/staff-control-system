@@ -1,0 +1,77 @@
+map.on('load', function() {
+map.addSource('points', {
+'type': 'geojson',
+'data': {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.42102,
+            60.057806
+          ],
+          [
+            30.420848,
+            60.057822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.420844,
+            60.057823
+          ],
+          [
+            30.420854,
+            60.057845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.420853,
+            60.057846
+          ],
+          [
+            30.421033,
+            60.057829
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.421033,
+            60.057828
+          ],
+          [
+            30.421025,
+            60.057806
+          ]
+        ]
+      }
+    }
+  ]
+}
+});

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <item android:drawable="@color/colorWhite"/>
+    <item>
+        <bitmap
+            android:src="@drawable/marker"
+            android:gravity="center"/>
+        <scale
+            android:scaleHeight="50"
+            android:scaleWidth="50"/>
+    </item>
+</layer-list>
