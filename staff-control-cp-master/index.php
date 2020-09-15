@@ -1,8 +1,5 @@
 <?php
-$username = "10001";
-$password = "qzwxecasd123";
-$host_api = "http://localhost:4567";
-$param = 123;
+
 
 // авторизация
 $curl = curl_init($host_api);
